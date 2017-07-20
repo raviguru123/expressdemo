@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/raviguru123/expressdemo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
