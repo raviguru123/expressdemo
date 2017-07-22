@@ -37,16 +37,14 @@ var options = {
 	}
 }
 
-
-
 app.use('/',express.static(path.join(__dirname, 'public/javascripts')));
 app.use('/',express.static(path.join(__dirname, 'bower_components')));
 app.use(express.static('public/html', options))
 
 
-// app.get("/user/:id",function(req,res,next){
-// 	res.render("index",{ title: 'Special response', message: 'special response message'});
-// });
+app.get("/user/:id",function(req,res,next){
+	res.render("index",{ title: 'Special response', message: 'special response message'});
+});
 
 
 
